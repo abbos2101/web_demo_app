@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screen/login/login_screen.dart';
+import 'screen/main/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,8 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginScreen.screen(),
+      home: MainScreen.screen(),
     );
   }
 }
