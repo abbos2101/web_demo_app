@@ -25,9 +25,9 @@ class _MainScreenState extends State<MainScreen> {
       floatingActionButton: FloatingActionButton(onPressed: () async {
         var client = new http.Client();
         try {
-          String theUrl = 'https://jsonplaceholder.typicode.com/users';
+          // String theUrl = 'https://jsonplaceholder.typicode.com/users';
 
-          // String theUrl = 'http://185.16.40.113:8080/api/slogan/random';
+          String theUrl = 'http://185.16.40.113:8080/api/slogan/random';
           var res = await client.get(theUrl, headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Expose-Headers": "*",

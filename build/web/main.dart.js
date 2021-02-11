@@ -46895,7 +46895,7 @@ $0:function(){var s=0,r=P.a8(t.P),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$$0=P.a4(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:g=new O.Hh(P.aU(t.sZ))
 q=3
-m="https://jsonplaceholder.typicode.com/users"
+m="http://185.16.40.113:8080/api/slogan/random"
 i=t.bi
 s=6
 return P.a3(g.nh("GET",m,P.aP(["Access-Control-Allow-Origin","*","Access-Control-Expose-Headers","*","Access-Control-Max-Age","*","Access-Control-Allow-Credentials","*","Access-Control-Allow-Methods","*","Access-Control-Allow-Headers","*","Origin","*","Access-Control-Request-Method","*"],i,i)),$async$$0)
